@@ -17,7 +17,7 @@ wetherform.addEventListener('submit',(e)=>{
     msg2.textContent=''
 
     
-    fetch('http://localhost:3000/products?address='+location).then((response)=>
+    fetch('/products?address='+location).then((response)=>
     {
         response.json().then((data)=>
         {
