@@ -78,18 +78,7 @@ app.get('/about',(req,res)=>{
     })
 }
 )
-// app.get('',(req,res)=>{
-//     res.send('hallo world !')
-// }
-// )
-// app.get('/help',(req,res)=>{
-//     res.send('help page !')
-// }
-// )
-// app.get('/about',(req,res)=>{
-//     res.send('about page')
-// }
-// )
+
 app.get('/weather',(req,res)=>{
     res.send('weather page')
 }
